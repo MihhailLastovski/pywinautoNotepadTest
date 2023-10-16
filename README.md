@@ -16,7 +16,7 @@ git clone https://github.com/MihhailLastovski/pywinautoNotepadTest.git
 ```
 4. Перейдите в каталог проекта:
 ```bash
-cd название-проекта
+cd pywinautoNotepadTest
 ```
 5. Отредактируйте код в файле `main.py` по необходимости, например, измените путь к файлу или текст, который будет вставлен в Notepad.
 

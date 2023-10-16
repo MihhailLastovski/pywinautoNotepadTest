@@ -26,4 +26,4 @@ try:
     app.kill()
 
 except Exception as e:
-    print("Произошла ошибка:", str(e))
+    print("Error:", str(e))
