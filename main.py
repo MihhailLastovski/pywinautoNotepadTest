@@ -17,15 +17,6 @@ try:
 
     pywinauto.keyboard.send_keys('{VK_RETURN}')
 
-    open_dialog = None
-    timeout = 20
-    while open_dialog is None and timeout > 0:
-        open_dialog = app.window(title='Ava')
-        timeout -= 1
-        time.sleep(1)
-
-    
-
     main_window.Edit.type_keys("!!!!!")
 
     main_window.menu_item("Fail->Salvesta").click_input()
